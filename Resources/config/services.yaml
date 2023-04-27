@@ -1,0 +1,6 @@
+services:
+  stats_tables_cleaner.service:
+    class: D3nysm\Bundle\StatsTablesCleaner\Service\StatsTablesCleanerService
+
+  stats_tables_cleaner.command:
+    class: D3nysm\Bundle\StatsTablesCleaner\Command\CleanCommand

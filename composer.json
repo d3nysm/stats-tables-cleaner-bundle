@@ -1,0 +1,24 @@
+{
+  "name": "d3nysm/stats-tables-cleaner-bundle",
+  "description": "Cleans old entries from database stats tables",
+  "minimum-stability": "stable",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dennis Smyshlyaev",
+      "email": "d3nnysm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "symfony/framework-bundle": "^5.1",
+    "symfony/orm-pack": "^1.0"
+  },
+  "autoload": {
+    "psr-4": { "D3nysm\\Bundle\\StatsTablesCleaner\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
