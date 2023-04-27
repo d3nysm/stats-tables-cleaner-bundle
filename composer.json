@@ -3,6 +3,7 @@
   "description": "Cleans old entries from database stats tables",
   "type": "symfony-bundle",
   "license": "MIT",
+  "keywords": ["symfony", "bundle", "orm", "doctrine"],
   "authors": [
     {
       "name": "Dennis Smyshlyaev",
