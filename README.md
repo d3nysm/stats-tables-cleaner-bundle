@@ -26,6 +26,13 @@ $ composer require d3nysm/stats-tables-cleaner-bundle
     class StatsEntry
      ```
    
+   Full settings of the annotation:
+   ```php
+   /**
+    * @DeleteOldData(dateProp="createdAt", interval="-1 month", batchSize=500, eventName="app.my_best_event")
+   */
+   ```
+   
 2. Run the command and add to you scheduler system:
     ```console
     $ php bin/console stats-tables-cleaner:clean
