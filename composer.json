@@ -1,7 +1,6 @@
 {
   "name": "d3nysm/stats-tables-cleaner-bundle",
   "description": "Cleans old entries from database stats tables",
-  "minimum-stability": "stable",
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
