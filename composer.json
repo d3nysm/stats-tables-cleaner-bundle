@@ -17,7 +17,7 @@
     "doctrine/orm": "^2.8"
   },
   "autoload": {
-    "psr-4": { "D3nysm\\Bundle\\StatsTablesCleaner\\": "" },
+    "psr-4": { "D3nysm\\Bundle\\StatsTablesCleaner\\": "src/" },
     "exclude-from-classmap": [
       "/Tests/"
     ]
